@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job1:
+    # job1에 대한 세부 내용
+  job2:
+    # job2에 대한 세부 내용
+  job3:
+    # job3에 대한 세부 내용
