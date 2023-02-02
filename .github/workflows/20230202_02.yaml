@@ -5,8 +5,8 @@ on:
 
 jobs:
   job1:
-    # job1에 대한 세부 내용
+    echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
   job2:
-    # job2에 대한 세부 내용
+    ls -al
   job3:
-    # job3에 대한 세부 내용
+    df -h
