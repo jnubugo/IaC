@@ -1,0 +1,11 @@
+jobs:
+  job:
+    container:
+      image: harbor.address/devops/actions/base:latest
+      credentials:
+        username: bot@hpcnt.com
+        password: ${{ secrets.BOT_PASSWORD }}
+    runs-on: ["gprunner", "pool=m5a.large"]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
